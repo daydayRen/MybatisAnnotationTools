@@ -1,0 +1,20 @@
+package #<modelPackage>;
+
+import java.io.Serializable;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
+
+/**
+ * #<tableComment>(#<tableName>)
+ *
+ * @author yitianRen
+ * @since #<createTime>
+ */
+public class #<modelName>{
+
+    private static final long serialVersionUID = #<serialVersionUID>L;
+
+#<fields>
+#<getterSetter>
+}
